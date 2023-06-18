@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+body {
+	background-color: darkolivegreen;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+#videoElement {
+	width: 100%;
+	height: auto;
+	transform: scaleX(-1); /* Mirroring transformation */
+}
+
+#fedora {
+	top: 0;
+	left: 40%;
+	transform: rotate(30deg);
+	height: 40rem;
+	width: auto;
+	position: absolute;
+}
+
+#cigar {
+	top: 70%;
+	left: 30%;
+	transform: rotate(-40deg);
+	height: 10rem;
+	width: auto;
+	position: absolute;
+}
